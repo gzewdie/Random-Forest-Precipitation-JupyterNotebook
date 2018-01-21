@@ -1,2 +1,5 @@
-# Random-Forest-for-Predicting-Daily-Precipitation
-In this project I presented a code implimenting the Random Forest Machine Learning method to predict daily large scale precipitation  using ECMWF data.  I used 29 predictor variables in the training.  The perormance of the prediction is validated using an indipendent data that is not used in the training.  See the figures for the results!
+This project presents the random forest machine learning method applied to predict precipitation in a python notebook.  We start by applying the random forest machine learning method without clearing the data, then we remove predictors that are constant at all times and nan values.  
+
+Two predictors that are highly correlated with each other adversely affect the machine learning and one of the predictors must be removed.  The next step i  this project is to perform these tasks and throughly clean the data to improve the prediction.
+
+Then we will apply other robust machine learning methods to see if they can improve the prediction.
